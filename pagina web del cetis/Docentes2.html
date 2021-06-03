@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title> validacion de formulario </title>
+        <link rel="stylesheet" href="estilosdocentes.css">
+    </head>
+    
+    <body>
+        <form action="" name="Validar" method="POST">
+                <h2>Formulario</h2>
+            <p>
+                DOCENTES
+            </p>
+             <p>
+                Matricula
+                <input type="text" name="Matricula" placeholder="Matricula" autocomplete="off" size="15"  pattern="[0-9]+" title="solo numeros, hasta 14 caracteres" required> 
+                Nombre
+                 <input type="text" name="nombre" placeholder="Nombre" autofocus="autofocus" autocomplete="off" size="15" minlength="1" maxlength="15" pattern="[a-z-A-Z-Ñ-ñ-Á-É-Í-Ó-Ú-á-é-í-ó-ú]+" title="Solo letras,sin espacios,hasta 15 caracteres" required>
+            </p>
+		<p>
+                Apellido Paterno
+                   <input type="text" name="Apellido Paterno" placeholder="apellido paterno" autofocus="autofocus" autocomplete="off" size="15" minlength="1" maxlength="15" pattern="[a-z-A-Z-Ñ-ñ-Á-É-Í-Ó-Ú-á-é-í-ó-ú]+" title="Solo letras,sin espacios,hasta 15 caracteres" required>
+            </p>
+		<p>
+                Apellido Materno
+                    <input type="text" name="Apellido Materno" placeholder="apellido materno" autofocus="autofocus" autocomplete="off" size="15" minlength="1" maxlength="15" pattern="[a-z-A-Z-Ñ-ñ-Á-É-Í-Ó-Ú-á-é-í-ó-ú]+" title="Solo letras,sin espacios,hasta 15 caracteres" required>
+            </p>
+		<p>
+                Domicilio
+                    <input type="text" name="Domicilio" placeholder="Domicilio" autocomplete="off" size="15"  pattern="[a-z-A-z-Ñ-ñ-á-Á-é-É-í-Í-ó-Ó-ú-Ú:0-9]+" title="solo letras y numeros,hasta 18 Caracteres" required>
+            </p>
+            <P>
+                Correo
+                <input type="text" name="Correo"placeholder="nombre364@gmail.com" autocomplete="off" size="15"  pattern="[0-9-:a-z-A-z-Ñ-ñ-á-Á-é-É-í-Í-ó-Ó-ú-Ú]+" title="solo letras numeros y carateres especiales " required>
+            </P>
+           
+            <p>
+            Telefono
+            <input type="text" name="Telefono" class="Telefono" placeholder="Telefono" autocomplete="off" size="15"  pattern="[0-9]+" title="solo numeros a 10 digitos, sin espacios  " required>
+	    </p>
+            <br>
+           
+            <br>
+	   
+            <input type="submit" name="btn" value="validar">
+            </form>
+		<button onclick="location.href='file:///C:/Users/ALONDRA/Downloads/pagina%20web%20del%20cetis/pagina%20con%20formulario.html'">Regresar </button>
+		
+    </body>
+</html>

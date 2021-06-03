@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <script>
+        // guardamos el id de la imagen visible
+        idImagenVisible="contenido1";
+        function mostrar(id)
+        {
+            // esconedemos la imagen visible
+            document.getElementById(idImagenVisible).style.display="none";
+            // mostramos la imagen seleccionada
+            document.getElementById(id).style.display="block";
+            // guardamos en la variable la imagen que estamos visualizando
+            idImagenVisible=id;
+        }
+    </script>
+    <style>
+        .oculto {display:none;}
+    </style>
+</head>
+ 
+<body bgcolor="#00BFFF">
+<center>
+<p>Ingenieria Electrica</p>
+<img src="C:\Users\ALONDRA\Downloads\pagina web del cetis\fotos\Electricidad1.jpg" width="450" height="300" id="contenido1">
+<img src="C:\Users\ALONDRA\Downloads\pagina web del cetis\fotos\Electricidad2.jpg" width="450" height="300" class="oculto" id="contenido2">
+<img src="C:\Users\ALONDRA\Downloads\pagina web del cetis\fotos\Electricidad3.jpg" width="450" height="300" class="oculto" id="contenido3">
+<img src="C:\Users\ALONDRA\Downloads\pagina web del cetis\fotos\Electricidad4.jpg" width="450" height="300" class="oculto" id="contenido4">
+<img src="C:\Users\ALONDRA\Downloads\pagina web del cetis\fotos\Electricidad5.jpg" width="450" height="300" class="oculto" id="contenido5">
+<p> <br>Un ingeniero en electrónica desarrolla proyectos que se basan en fundamentos matemáticos y físicos, la teoría de circuitos, el uso de microcontroladores y microprocesadores y temas avanzados como la robótica y automatización industrial. 
+
+<br>Su objetivo es transmitir, recibir y procesar información que se utilizarán en la creación de dispositivos electrónicos, de control automático, fuentes de energía, computadoras y teléfonos, entre otros.
+
+<br> Algunos de los lugares en los que se puede desarrollar profesionalmente son empresas de automatización y control industrial, creación de dispositivos electrónicos y telecomunicaciones.
+<br>En telecomunicaciones, su labor es de suma importancia para realizar procedimientos y transmisiones de medios de comunicación. Aquí, comúnmente los ingenieros se encargan de montar equipos, configurar los mismos y lograr su funcionamiento óptimo.
+<br>Además, un ingeniero en electrónica tiene las habilidades de investigar acerca del diseño y desarrollo de hardware (componentes como circuitos integrados, placas electrónicas profesionales, entre otros), además de supervisar su fabricación, pruebas y en algunos casos hasta la  instalación.
+</p>
+<form>
+    <br> <input type="button" onclick="mostrar('contenido1')" value="Siguiente">
+    <input type="button" onclick="mostrar('contenido2')" value="Siguiente">
+    <input type="button" onclick="mostrar('contenido3')" value="Siguiente">
+    <input type="button" onclick="mostrar('contenido4')" value="Siguiente">
+    <input type="button" onclick="mostrar('contenido5')" value="Siguiente">
+</center>
+</form>
+</body>
+</html>

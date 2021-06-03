@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title> validacion de formulario </title>
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    
+    <body>
+        <form action="" name="Validar" method="POST">
+                <h2>Formulario</h2>
+            <p>
+                DOCENTES
+            </p>
+             <p>
+                Matricula
+                <input type="text" name="Matricula" placeholder="Matricula" autocomplete="off" size="15"  pattern="[0-9]+" title="solo numeros" required> 
+                Nombre
+                <input type="text" name="Nombre" placeholder="Nombre" autocomplete="off" size="15"  pattern="[a-z-A-z-Ñ-ñ-á-Á-é-É-í-Í-ó-Ó-ú-Ú]+" title="solo letras" required>
+            </p>
+		<p>
+                Apellido Paterno
+                    <input type="text" name="Apellido Paterno" placeholder="Apellido Paterno" autocomplete="off" size="15"  pattern="[a-z-A-z-Ñ-ñ-á-Á-é-É-í-Í-ó-Ó-ú-Ú]+" title="solo letras y numeros,hasta 18 Caracteres" required>
+            </p>
+		<p>
+                Apellido Materno
+                    <input type="text" name="Apellido Materno" placeholder="Apellido Materno" autocomplete="off" size="15"  pattern="[a-z-A-z-Ñ-ñ-á-Á-é-É-í-Í-ó-Ó-ú-Ú]+" title="solo letras, hasta 18 Caracteres" required>
+            </p>
+		<p>
+                Domicilio
+                    <input type="text" name="Domicilio" placeholder="Domicilio" autocomplete="off" size="15"  pattern="[a-z-A-z-Ñ-ñ-á-Á-é-É-í-Í-ó-Ó-ú-Ú]+" title="solo letras y numeros,hasta 18 Caracteres" required>
+            </p>
+            <P>
+                Correo
+                <input type="text" name="Correo"placeholder="nombre364@gmail.com" autocomplete="off" size="15"  pattern="[0-9-:-a-z-A-Z]+" title="solo letras numeros y carateres especiales " required>
+            </P>
+           
+            <p>
+            Telefono
+            <input type="text" name="Telefono" class="direccion1" placeholder="Telefono" autocomplete="off" size="15"  pattern="[0-9]+" title="solo letras " required>
+	    </p>
+            <br>
+           
+            <br>
+	   
+            <input type="submit" name="btn" value="validar">
+            </form>
+		<button onclick="location.href='file:///C:/Users/x/Downloads/pajina%20geb%20del%20cetis/pagina%20con%20formulario.html'"> Atras</button>
+		
+    </body>
+</html>

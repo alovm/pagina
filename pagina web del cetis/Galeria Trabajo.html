@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <script>
+        // guardamos el id de la imagen visible
+        idImagenVisible="contenido1";
+        function mostrar(id)
+        {
+            // esconedemos la imagen visible
+            document.getElementById(idImagenVisible).style.display="none";
+            // mostramos la imagen seleccionada
+            document.getElementById(id).style.display="block";
+            // guardamos en la variable la imagen que estamos visualizando
+            idImagenVisible=id;
+        }
+    </script>
+    <style>
+        .oculto {display:none;}
+    </style>
+</head>
+ 
+<body bgcolor="#00BFFF">
+<center>
+<p>TRABAJO SOCIAL</p>
+<img src="C:\Users\ALONDRA\Downloads\pagina web del cetis\fotos\Social.jpg" width="450" height="300" id="contenido1">
+<img src="C:\Users\ALONDRA\Downloads\pagina web del cetis\fotos\Trabajo.jpg" width="450" height="300" class="oculto" id="contenido2">
+<img src="C:\Users\ALONDRA\Downloads\pagina web del cetis\fotos\TrabajoSocial1.jpg" width="450" height="300" class="oculto" id="contenido3">
+<img src="C:\Users\ALONDRA\Downloads\pagina web del cetis\fotos\TrabajoSocial2.jpg" width="450" height="300" class="oculto" id="contenido4">
+<img src="C:\Users\ALONDRA\Downloads\pagina web del cetis\fotos\TrabajoSocial3.jpg" width="450" height="300" class="oculto" id="contenido5">
+<p> 
+<br><b>Teorías de la Comunicación:</b>
+Esta interesante materia te enseñará todo lo referente a comunicar y transmitir mensajes, ideas y pensamiento.
+Entre otras cosas, te mostrará los diferentes elementos que forman parte de un proceso de comunicación y la importancia de ellos.
+También aborda los factores psicológicos y sociológicos que tienen algún tipo de influencia en las personas a la hora de comunicarse y relacionarse.
+
+<br><b>Sociología:</b>
+Ya que mencionamos los factores sociológicos, no podemos dejar de hablar sobre esta importante materia del área básica de la carrera de Trabajo Social.
+Específicamente, esta asignatura te enseñará cuáles son los patrones comunes del surgimiento y desarrollo de un conflicto dentro de un grupo familiar.
+Además, te mostrará cómo una crisis familiar modifica el comportamiento de sus miembros y altera sus procesos mentales y psicológicos.
+Entender todo esto es el primer paso para brindar una atención efectiva que se traduzca en resultados en el corto y mediano plazo.
+En el ejercicio de la carrera de Trabajo Social, el aspecto elemental para resolver un conflicto es identificar y comprender en todo su esplendor el origen.
+
+<br><b>Estadística:</b>
+Las materias que ayudan a procesar información y compartir resultados también son muy importantes dentro del plan educativo de la carrera de Trabajo Social.
+En el caso de la cátedra de Estadística, te capacitará para transformar grandes volúmenes de información en inferencias y conclusiones numéricas sólidas, de fácil comprensión y con una gran utilidad informativa.
+Por otro lado, te enseñará a sacar cálculos, especialmente aquellos relacionados con los porcentajes y la segmentación.
+
+<br><b>Derechos Humanos:</b>
+Al evaluar el quehacer de las diferentes profesiones contemporáneas, nos encontramos con que unos de los más grandes defensores de los derechos humanos son los trabajadores sociales.
+Y es que la intervención social en sí promueve constantemente este derecho, así como diferentes garantías que deben tener las personas para disfrutar de bienestar.
+Además, a través de esta materia aprenden todo lo referente a los derechos humanos y el respaldo jurídico, institucional e internacional de los mismos.
+Cabe destacar que México, como la mayoría de las naciones del mundo, firmó la Declaración Universal de los Derechos Humanos, promulgada por la Organización de las Naciones Unidades (ONU) en 1948.
+Es por ello que los trabajadores sociales de nuestra nación se aseguran de que los ciudadanos realmente tengan estos derechos, relacionados con la vida, la educación, la salud, la integridad física y muchas otras áreas.
+
+<br><b>Política Social:</b>
+Se trata de una disciplina clave de las ciencias políticas que se ocupa de estudiar todo lo referente a la intervención pública, específicamente a nivel comunicativo y estatal.
+Uno de sus principales elementos de estudio es el siempre desigual desarrollo de las sociedades modernas y la forma de enfrentar esta dinámica de manera sustentable y efectiva.
+<form>
+    <input type="button" onclick="mostrar('contenido1')" value="Siguiente">
+    <input type="button" onclick="mostrar('contenido2')" value="Siguiente">
+    <input type="button" onclick="mostrar('contenido3')" value="Siguiente">
+    <input type="button" onclick="mostrar('contenido4')" value="Siguiente">
+    <input type="button" onclick="mostrar('contenido5')" value="Siguiente">
+   
+</form>
+</center>
+</body>
+</html>

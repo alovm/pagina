@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <script>
+        // guardamos el id de la imagen visible
+        idImagenVisible="contenido1";
+        function mostrar(id)
+        {
+            // esconedemos la imagen visible
+            document.getElementById(idImagenVisible).style.display="none";
+            // mostramos la imagen seleccionada
+            document.getElementById(id).style.display="block";
+            // guardamos en la variable la imagen que estamos visualizando
+            idImagenVisible=id;
+        }
+    </script>
+    <style>
+        .oculto {display:none;}
+    </style>
+</head>
+ 
+<body bgcolor="#00BFFF">
+<center>
+<p>PROGRAMACION</p>
+<img src="C:\Users\ALONDRA\Downloads\pagina web del cetis\fotos\programacion1.jpg" width="450" height="300" id="contenido1">
+<img src="C:\Users\ALONDRA\Downloads\pagina web del cetis\fotos\Programacion2.jpg" width="450" height="300" class="oculto" id="contenido2">
+<img src="C:\Users\ALONDRA\Downloads\pagina web del cetis\fotos\Programacion3.jpg" width="450" height="300" class="oculto" id="contenido3">
+<img src="C:\Users\ALONDRA\Downloads\pagina web del cetis\fotos\Programacion4.jpg" width="450" height="300" class="oculto" id="contenido4">
+<img src="C:\Users\ALONDRA\Downloads\pagina web del cetis\fotos\ImagenPro.jpg" width="450" height="300" class="oculto" id="contenido5">
+<p> °Sistemas informáticos: Se trata de un conjunto de elementos, entre hardware, software y operadores, que almacenan y procesan información útil y vital de una empresa. Para elaborar un sistema informático, el ingeniero debe ser experto en programación.
+
+<br>°Infraestructura de redes y comunicaciones: Fundamentales para la conectividad entre todos los sistemas y personal dentro de una compañía.
+
+<br>°Aplicaciones: Aunque no es el punto fuerte de un ingeniero de sistemas computacionales, dentro de la malla curricular de la carrera se obtienen conocimientos en apps móviles y programación, por lo que algunos profesionales deciden especializarse en crearlas para las empresas o independientemente.
+
+<br>°Interfaces para aplicaciones web: El diseño de una interfaz de usuario hace la diferencia entre una experiencia inteligente y agradable o una que frustra y aleja a los usuarios. Para la empresa, el diseño de interfaces tanto para los clientes como para el personal es muy importante.
+</p>
+<form>
+    <br> <input type="button" onclick="mostrar('contenido1')" value="Siguiente">
+    <input type="button" onclick="mostrar('contenido2')" value="Siguiente">
+    <input type="button" onclick="mostrar('contenido3')" value="Siguiente">
+    <input type="button" onclick="mostrar('contenido4')" value="Siguiente">
+    <input type="button" onclick="mostrar('contenido5')" value="Siguiente">
+</center>
+</form>
+</body>
+</html>

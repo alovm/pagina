@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title> validacion de formulario </title>
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    
+    <body>
+        <form action="" name="Validar" method="POST">
+                <h2>Formulario</h2>
+            <p>
+                Alumno 
+            </p>
+             <p>
+                Nombre
+                <input type="text" name="nombre" placeholder="Nombre" autocomplete="off" size="15"  pattern="[a-z-A-z-Ñ-ñ-á-Á-é-É-í-Í-ó-Ó-ú-Ú]+" title="solo letras" required> 
+                Apellido
+                <input type="text" name="Apellido" placeholder="Apellido" autocomplete="off" size="15"  pattern="[a-z-A-z-Ñ-ñ-á-Á-é-É-í-Í-ó-Ó-ú-Ú]+" title="solo letras" required>
+            </p>
+		<p>
+                CURP
+                    <input type="text" name="Cupr" placeholder="curp" autocomplete="off" size="15"  pattern="[0-9-:a-z-A-z-Ñ-ñ-á-Á-é-É-í-Í-ó-Ó-ú-Ú]+" title="solo letras y numeros,hasta 18 Caracteres" required>
+            </p>
+            <P>
+                Correo
+                <input type="text" name="Correo"placeholder="nombre364@gmail.com" autocomplete="off" size="15"  pattern="[0-9-:-a-z-A-Z]+" title="solo letras numeros y carateres especiales " required>
+            </P>
+           
+            <p>
+            Dirección
+            <input type="text" name="Direccion" class="direccion1" placeholder="direccion" autocomplete="off" size="15"  pattern="[a-z-A-z-Ñ-ñ-á-Á-é-É-í-Í-ó-Ó-ú-Ú]+" title="solo letras " required>
+            <br>
+           
+            <br>
+	    <input type="text" name="Cpostal" class="codigo" autocomplete="off" placeholder="Código postal" size="15" pattern="[a-z-A-z-Ñ-ñ-á-Á-é-É-í-Í-ó-Ó-ú-Ú]+" title="solo letras, sin espacios" required>
+            <br>
+		<br> <select name="seleccionar" class="selec" required>
+                <option value="" selected="selected">Estado</option>
+                <option value="1">Mexico</option>
+                <option value="2">Jalisco</option>
+                <option value="3">Queretaro</option>
+                <option value="4">Guerrero</option>
+                <option value="5">Michoacan</option>
+                <option value="6">Sonora</option>
+                <option value="7">Morelos</option>
+                <option value="8">Puebla</option>
+                <option value="9">Guanajuato</option>
+                <option value="10">Oaxaca</option>
+            </select>
+            </p>
+            <p>
+                Fecha de Nacimiento
+                <input type="date" name="Fecha de Nacimiento"  autofocus="autofocus"autocomplete="off" size="15" pattern="[0-9]+" title="Solo la fecha de Nacimiento" required>    
+            </p>
+            <input type="submit" name="btn" value="validar">
+            </form>
+		<button onclick="location.href='file:///C:/Users/x/Downloads/pajina%20geb%20del%20cetis/pagina%20con%20formulario.html'"> </button>
+		<button onclick="location.href='file:///C:/Users/x/Downloads/pajina%20geb%20del%20cetis/pagina%20con%20formulario.html'"> atras </button>
+		
+    </body>
+</html>

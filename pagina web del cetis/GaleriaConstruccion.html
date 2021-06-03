@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <script>
+        // guardamos el id de la imagen visible
+        idImagenVisible="contenido1";
+        function mostrar(id)
+        {
+            // esconedemos la imagen visible
+            document.getElementById(idImagenVisible).style.display="none";
+            // mostramos la imagen seleccionada
+            document.getElementById(id).style.display="block";
+            // guardamos en la variable la imagen que estamos visualizando
+            idImagenVisible=id;
+        }
+    </script>
+    <style>
+        .oculto {display:none;}
+    </style>
+</head>
+ 
+<body bgcolor="#00BFFF">
+<center>
+<p>CONTRUCCION</p>
+<img src="C:\Users\ALONDRA\Downloads\pagina web del cetis\fotos\Construccion.jpg" width="450" height="300" id="contenido1">
+<img src="C:\Users\ALONDRA\Downloads\pagina web del cetis\fotos\construccion1.jpg" width="450" height="300" class="oculto" id="contenido2">
+<img src="C:\Users\ALONDRA\Downloads\pagina web del cetis\fotos\Construccion2.jpg" width="450" height="300" class="oculto" id="contenido3">
+<img src="C:\Users\ALONDRA\Downloads\pagina web del cetis\fotos\Construccion3.jpg" width="450" height="300" class="oculto" id="contenido4">
+<img src="C:\Users\ALONDRA\Downloads\pagina web del cetis\fotos\Construccion4.jpg" width="450" height="300" class="oculto" id="contenido5">
+
+<p> <br>Estructuras resistentes, obras civiles y de arte de todo tipo.
+Obras de regulación, captación, abastecimiento y tratamiento de aguas.
+Obras de riego y sus correspondientes obras de desagüe y drenaje.
+Instalaciones hidromecánicas.
+Obras destinadas al aprovechamiento de la energía hidráulica y otras fuentes alternativas.
+Obras de corrección y regulación fluvial.
+Obras de saneamiento urbano, rural y regional; obras de control de erosión.
+Obras de urbanismo en lo referente al trazado urbano, y organización de los servicios públicos vinculados con higiene, transporte, comunicaciones y energía.
+
+<br>Estudios, tareas y asesoramientos relacionados con: Mecánica de suelos y mecánica de rocas.
+Trabajos topográficos y geodésicos.
+Riesgo sísmico en construcciones.
+Planeamiento urbano, rural y de sistemas de transporte en general.
+Loteos urbanos y subdivisiones por el régimen de propiedad horizontal.
+Estudio de tránsito en áreas urbanas y rurales.
+Planeamiento del uso y administración de recursos hídricos. Estudios hidrológicos.
+
+<br>En el ejercicio libre de la profesión, o dedicarse a la docencia y a la investigación.
+Construcción de obras civiles, ya sea como proyectista o como ejecutor de las obras.
+Topografía, cartografía, geodesia y catastro.
+Docencia y Administración Universitaria.
+En el desarrollo de infraestructura física: viviendas, edificaciones, carreteras, obras de paso y manejo y tratamiento del recurso agua.
+En el sector público, sus servicios son requeridos en las secretarías de Desarrollo Social, de Agricultura, Ganadería y Desarrollo Rural.a los usuarios. Para la empresa, el diseño de interfaces tanto para los clientes como para el personal es muy importante.
+</p>
+
+<form>
+    <br> <input type="button" onclick="mostrar('contenido1')" value="Siguiente">
+    <input type="button" onclick="mostrar('contenido2')" value="Siguiente">
+    <input type="button" onclick="mostrar('contenido3')" value="Siguiente">
+    <input type="button" onclick="mostrar('contenido4')" value="Siguiente">
+    <input type="button" onclick="mostrar('contenido5')" value="Siguiente">
+</form>
+</center>
+</body>
+</html>

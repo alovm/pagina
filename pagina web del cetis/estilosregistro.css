@@ -1,0 +1,31 @@
+body { 
+                      background:white;
+                      font-family: cursive;
+                      position: relative;
+                      left: 300px; top:10px;
+                      border-left-color: black;
+                      border:8px solid Aqua; 
+                      border-collapse:collapse;
+                      padding:30px 30px; width: 490px; 
+                      height: 590px; 
+          }
+
+      form{ 
+               background:Lavender; 
+               position: relative; 
+               width: 490; 
+               height: 490;
+               left: -10px; top:10px ;
+            }
+                               .titulo{ 
+                                         position: relative;
+                                         top: -20px; 
+                                         background: white; 
+                                         left: 10px;
+                                         border-left-color:white;
+                                         border:0px solid silver; 
+                                         border-collapse: collapse; 
+                                         padding:1px 1px; 
+                                         width: 120px; 
+                                         height: 20px; 
+                                    }
